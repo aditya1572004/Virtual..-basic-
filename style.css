@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Arrows:wght@400..700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    width: 100%;
+    height: 100%;
+    background-color:black;
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+    flex-direction: column;
+
+}
+#logo{
+    width: 30vw;
+
+}
+h1{
+    color: aliceblue;
+    font-family: "Edu AU VIC WA NT Arrows", cursive;
+}
+#name{
+    color: aquamarine;
+    font-size: 50px;
+}
+#va{
+    color: rgb(212, 43, 122);
+    font-size: 50px;
+}
+#voice{
+    width: 200px;
+    display: none;
+    
+
+}
+#btn{
+    width:30%;
+    background:linear-gradient(to right,rgb(70,130,180),rgb(105, 17, 58));
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    border-radius: 20px;
+    font-size: 20px;
+    font-family: "poppins";
+    color: white;
+    box-shadow: 2px 2px 5px rgb(21, 145,207),2px 2px 5px rgb(232, 6, 111);
+    border: none;
+    transition: all 0.5s;
+    cursor: pointer;
+
+}
+#btn:hover{
+    box-shadow: 2px 2px 10px rgb(21, 145,207),2px 2px 20px rgb(247, 1, 116);
+    letter-spacing: 2px;
+
+}
+@media (max-width: 768px) {
+    #logo {
+        width: 30%;
+        max-width: 100%;
+        border-radius: 50%;
+        margin-top: 30%;
+    }
+
+    h1 {
+        font-size: 2.5vw;
+    }
+
+    #name {
+       font-size: 5vw;  
+    }
+    #va{
+        font-size: 5vw;
+    }
+
+    #btn {
+        width: 40%;
+        font-size: 0.9rem;
+        padding: 10px;
+    }
+
+    #btn img {
+        width: 18px;
+    }
+}
+
+@media (max-width: 480px) {
+    #logo {
+        width: 70%;
+        max-width: 100%;
+        border-radius: 50%;
+    }
+
+    h1 {
+        font-size: 4.5vw;
+    }
+
+    #btn {
+        width: 70%;
+        font-size: 0.8rem;
+        padding: 8px;
+    }
+
+    #btn img {
+        width: 16px;
+    }
+}
+
+/*@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Arrows:wght@400..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+#logo {
+    width: 30vw;
+}
+
+h1 {
+    color: aliceblue;
+    font-family: "Edu AU VIC WA NT Arrows", cursive;
+    font-size: 2vw;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+
+#name, #va {
+    font-size: 1.5em;
+}
+
+#name {
+    color: aquamarine;
+}
+
+#va {
+    color: rgb(212, 43, 122);
+}
+
+#voice {
+    width: 150px;
+    display: none;
+}
+
+#btn {
+    width: 60%;
+    max-width: 300px;
+    background: linear-gradient(to right, rgb(70, 130, 180), rgb(105, 17, 58));
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    border-radius: 20px;
+    font-size: 1rem;
+    color: white;
+    box-shadow: 2px 2px 5px rgb(21, 145, 207), 2px 2px 5px rgb(232, 6, 111);
+    border: none;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+#btn img {
+    width: 20px;
+}
+
+#btn:hover {
+    box-shadow: 2px 2px 10px rgb(21, 145, 207), 2px 2px 20px rgb(247, 1, 116);
+    letter-spacing: 1px;
+}
+
+@media (max-width: 768px) {
+    #logo {
+        width: 25vw;
+        max-width: 120px;
+        border-radius: 50%;
+    }
+
+    h1 {
+        font-size: 5vw;
+    }
+
+    #btn {
+        width: 80%;
+        font-size: 0.9rem;
+        padding: 10px;
+    }
+
+    #btn img {
+        width: 18px;
+    }
+}
+
+@media (max-width: 480px) {
+    #logo {
+        width: 30vw;
+        max-width: 100px;
+        border-radius: 50%;
+    }
+
+    h1 {
+        font-size: 4.5vw;
+    }
+
+    #btn {
+        width: 90%;
+        font-size: 0.8rem;
+        padding: 8px;
+    }
+
+    #btn img {
+        width: 16px;
+    }
+}*/
